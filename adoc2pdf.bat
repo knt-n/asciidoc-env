@@ -1,6 +1,7 @@
 @ECHO OFF
 CD /D "%~dp0"
 SETLOCAL
+SET RUBYOPT=-EUTF-8
 SET FILENAME=%~dpn1
 SET OPTIONS=
 SET OPTIONS=%OPTIONS% -r asciidoctor-diagram

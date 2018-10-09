@@ -1,5 +1,7 @@
 CD /D "%~dp0"
 
+SET RUBYOPT=-EUTF-8
+
 REM 使用するツールのインストール
 CALL bundle install --path bundler
 
