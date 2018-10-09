@@ -1,4 +1,4 @@
-# adciidoc-env
+# asciidoc-env
 AsciiDoc用の作業用環境
 
 ## 使用方法
